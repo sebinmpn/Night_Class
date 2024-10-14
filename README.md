@@ -9,4 +9,7 @@
 
 
 
--      .      -      . 
+-     abc
+- abc
+-   abc
+-         abcd
