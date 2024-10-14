@@ -3,4 +3,4 @@
 
 gcc [https://code.visualstudio.com/docs/cpp/config-mingw]
 
-make [http://cloudskillsboost.google/paths/419/course_templates/966/documents/469598]
+[make](https://leangaurav.medium.com/how-to-setup-install-gnu-make-on-windows-324480f1da69)
