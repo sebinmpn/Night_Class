@@ -1,6 +1,6 @@
 # Night_Class
 
-### install this 
+### install this for windows
 - [vscode](https://code.visualstudio.com/download)
 -     https://code.visualstudio.com/download**
 
