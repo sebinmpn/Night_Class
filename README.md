@@ -1,6 +1,8 @@
 # Night_Class
 
 
-gcc [https://code.visualstudio.com/docs/cpp/config-mingw]
+[vscode](https://code.visualstudio.com/download)
 
-[make](https://leangaurav.medium.com/how-to-setup-install-gnu-make-on-windows-324480f1da69)
+[gcc install](https://code.visualstudio.com/docs/cpp/config-mingw)
+
+[make file install](https://leangaurav.medium.com/how-to-setup-install-gnu-make-on-windows-324480f1da69)
