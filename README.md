@@ -2,6 +2,7 @@
 
 
 - [vscode](https://code.visualstudio.com/download)
+-     https://code.visualstudio.com/download**
 
 - [gcc install](https://code.visualstudio.com/docs/cpp/config-mingw)
 
@@ -9,7 +10,3 @@
 
 
 
--     abc
-- abc
--   abc
--         abcd
