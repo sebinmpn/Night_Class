@@ -1,2 +1,1 @@
-## C
-lass Notes
+## Class Notes
