@@ -16,9 +16,9 @@
 - dv = a * dt;
 - ds = v * dt;
 
-q = 1
-m = 1
-e0 = 1
-r1 = 1
-r2 = 2
+q = 1,
+m = 1,
+e0 = 1,
+r1 = 1,
+r2 = 2,
 [N.P in SI unit]
