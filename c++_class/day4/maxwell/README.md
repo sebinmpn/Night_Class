@@ -12,7 +12,7 @@
 
 
 #### F12 = 1/(4 pi e0) q1q2/(r^2)
-- a = q / m;
+- a = F / m;
 - dv = a * dt;
 - ds = v * dt;
 
