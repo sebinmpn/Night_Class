@@ -10,10 +10,18 @@
         }
 
         int main(){
-            float m = 1;
-            float q1 , q2 = 1;
-            float r1 = 1 , r2 = 2;
-            float dt = 0.00001;
-            
 
+            float m = 1;
+            
+            float dt = 0.00001;
+            float f = (1,1,2,1); 
+
+            float a = f / m ; // accerlation  
+
+            float v = 0;
+            v = v + a * dt;
+
+            std::cout<< "position of particle in time is :" << v << std::endl; //  printing the output value
+
+            return 0;
         }
