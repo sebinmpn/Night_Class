@@ -30,11 +30,13 @@ void show (int x) \\ nothing is to return. so void (a dummy data type) is used.
 
 ### cntrol statements
 
+```
 if (condition)
 {
     body;    
 }
-
+```
+```
 
 if (condition)
 {
@@ -44,10 +46,10 @@ else
 {
     body; // if codition is false
 }
+```
 
-
-#### exted if
-
+#### nexted if
+```
 if (condition)
 {
     body;  // if codition is true
@@ -64,10 +66,10 @@ else
 {
     body; // if codition is false
 }
+```
 
-
-
-or 
+or
+``` 
 if (condition)
 {
     body;  // if codition is true
@@ -83,7 +85,7 @@ if (condition)
     }
 
 }
-
+```
 
 ## loops (for, while, do while)
 
