@@ -11,20 +11,22 @@ data_type function_name (data_type variable, data_type variable,...)
 }
 ```
 eg. 
+```
 int fun (int x) // function will return an integer value
 {
     int x_squr = x * x;
 
     return (int) x_squr;
 }
-
+```
+```
 void show (int x) \\ nothing is to return. so void (a dummy data type) is used. 
 {
     std::cout << "x" << "\n";
 
     return;
 }
-
+```
 
 ### cntrol statements
 
