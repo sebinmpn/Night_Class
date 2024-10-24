@@ -22,24 +22,15 @@
 
 void ring (int r,  int n)
 {
-    for (int j = 0; j  < n - r; j++)
-        {
-            std::cout << " "; 
-        }
-        for (int j = 0; j < r; j++)
-        {
-            std::cout << " *"; 
-        }
-        for (int j = 0; j  < n - r; j++)
-        {
-            std::cout << " "; 
-        }
-        std::cout << "  "; 
+    for (int j = 0; j  < n - r; j++) std::cout << " ";  
+    for (int j = 0; j < r; j++)      std::cout << " *"; 
+    for (int j = 0; j  < n - r; j++) std::cout << " "; 
+    std::cout << "  "; 
 }
 
 int t[3][NUMBER_OF_RINGS] = { {1, 2, 3, 4, 5},
-                                {0, 0, 0, 0, 0},
-                                {0, 0, 0, 0, 0}};
+                              {0, 0, 0, 0, 0},
+                              {0, 0, 0, 0, 0}};
 
 
 void plot_tree (int n)
@@ -51,16 +42,20 @@ void plot_tree (int n)
         ring (t[2][i], n);
         std::cout << "\n";
     }
+    
     std::cout << " ";
-    for (int i = 0; i < NUMBER_OF_RINGS; i++)
-        std::cout << "-1";
-        std::cout << "  ";
-    for (int i = 0; i < NUMBER_OF_RINGS; i++)
-        std::cout << "-2";
-        std::cout << "  ";
-    for (int i = 0; i < NUMBER_OF_RINGS; i++)
-        std::cout << "-3";
-        std::cout << " ";
+    
+    for (int i = 0; i < NUMBER_OF_RINGS; i++) std::cout << "-1";
+    
+    std::cout << "  ";
+    
+    for (int i = 0; i < NUMBER_OF_RINGS; i++) std::cout << "-2";
+
+    std::cout << "  ";
+    
+    for (int i = 0; i < NUMBER_OF_RINGS; i++) std::cout << "-3";
+    
+    std::cout << " ";
 }
 
 void movie (int from, int to)
@@ -87,6 +82,7 @@ void movie (int from, int to)
 }
 
 
+
 int main()
 {
     plot_tree(NUMBER_OF_RINGS);
@@ -106,13 +102,6 @@ int main()
         else
             movie(from - 1,to - 1);
 
-        // for(int i = 0; i < 3; i++)
-        // {
-        //     for (int j = 0; j < 5; j++)
-        //         std::cout << t[i][j] << ", ";
-        //         std::cout << "\n";
-        // }
-
     }
-
+    return 0;
 }
