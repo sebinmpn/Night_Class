@@ -97,7 +97,9 @@ int main()
     while (true)
     {
         plot_tree(NUMBER_OF_RINGS); 
-        std::cin >> from >> to;
+        std::cin >> from;
+        to  = from % 10;
+        from = from /10;
         movie(from,to);
 
         // for(int i = 0; i < 3; i++)
