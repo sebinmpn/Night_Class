@@ -2,14 +2,14 @@
 
 
 ### Function
-
+```
 data_type function_name (data_type variable, data_type variable,...)
 {
     body;
 
     return (data_type) vdata_typeariable;
 }
-
+```
 eg. 
 int fun (int x) // function will return an integer value
 {
