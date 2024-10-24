@@ -12,7 +12,7 @@ data_type function_name (data_type variable, data_type variable,...)
 ```
 eg. 
 ```
-int fun (int x) // function will return an integer value
+int fun (int x) // function will return an integer value f(x) = x^2
 {
     int x_squr = x * x;
 
