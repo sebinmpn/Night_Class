@@ -4,7 +4,7 @@ Dive into the world of analog circuits with this hands-on class! Learn to design
 
 ## Task 1A: Sine Wave Generator using IC555
 
-**Assigned to:** Thanze
+**Assigned to:** Thanzi
 
 ### Objective:
 Build a sine wave generator using an IC555 square wave generator and an RC filter.
